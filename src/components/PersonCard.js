@@ -1,5 +1,4 @@
-import React from 'react';
-import { Component } from 'react';
+import React, { Component } from 'react';
 
     class PersonCard extends Component {
         render (){
@@ -13,3 +12,5 @@ import { Component } from 'react';
             )
         }
     }
+
+export default PersonCard;
