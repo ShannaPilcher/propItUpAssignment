@@ -7,25 +7,25 @@ function App() {
       <PersonCard 
       lastName={"Pilcher"}
       firstName={"Shanna"}
-      age={"29"}
       hairColor={"Blonde"}
+      age={ 29 }
       />
             <PersonCard 
       lastName={"Pilcher"}
       firstName={"Ty"}
-      age={"31"}
+      age={31}
       hairColor={"Blonde"}
       />
             <PersonCard 
       lastName={"Pilcher"}
       firstName={"Lex"}
-      age={"2"}
+      age={2}
       hairColor={"Blonde"}
       />
             <PersonCard 
       lastName={"Pilcher"}
       firstName={"Shadow"}
-      age={"5"}
+      age={5}
       hairColor={"Black"}
       />
     </div>
