@@ -1,6 +1,21 @@
 import React, { Component } from 'react';
 
-    class PersonCard extends Component {
+const PersonCard = props => {
+    return (
+        <div>
+            <h1>{ props.lastName }, {props.firstName}</h1>
+            <p>Age: {props.age} </p>
+            <p>Hair Color: {props.hairColor} </p>
+        </div>
+    );
+}
+
+
+
+
+
+//Class component version of prop-it-up assignment
+/*    class PersonCard extends Component {
         constructor (props){
             super(props);
             this.state = {
@@ -22,5 +37,6 @@ import React, { Component } from 'react';
             )
         }
     }
+*/
 
 export default PersonCard;
